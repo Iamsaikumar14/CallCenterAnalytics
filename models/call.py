@@ -1,5 +1,5 @@
 from pydantic import BaseModel
-from typing import List, Optional
+# from typing import List, Optional
 
 class Utterance(BaseModel):
     speaker: str  # e.g., "agent" or "customer"
