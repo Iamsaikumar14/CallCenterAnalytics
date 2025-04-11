@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import sentiment
+from routes import sentiment , transcription
 
 app = FastAPI(
     title="Call Center Analytics API",
@@ -8,3 +8,4 @@ app = FastAPI(
 )
 
 app.include_router(sentiment.router, prefix="/sentiment")
+app.include_router(transcription.router, prefix="/transcription")

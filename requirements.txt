@@ -1,5 +1,7 @@
 fastapi
 uvicorn
-transformers
-torch
 pydantic
+transformers
+torch  # Required for Whisper
+openai-whisper
+
