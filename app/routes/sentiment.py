@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from ..models.call import Utterance
-from ..services.analysis import AnalysisService
+from models.call import Utterance
+from services.analysis import AnalysisService
 
 router = APIRouter()
 service = AnalysisService()

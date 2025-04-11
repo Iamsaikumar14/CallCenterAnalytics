@@ -1,5 +1,5 @@
 from fastapi import APIRouter, UploadFile, File, HTTPException
-from ..services.holdtime_analyzer import HoldTimeAnalyzer
+from app.services.holdtime_analyzer import HoldTimeAnalyzer
 import tempfile
 import shutil
 
